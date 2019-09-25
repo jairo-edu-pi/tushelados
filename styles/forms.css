@@ -1,0 +1,47 @@
+.gray-input {
+    background-color: #f6f7fb;
+    border: none;
+    border-radius: 5px;
+    font-family: 'poppinsmedium';
+    font-size: 14px;
+    padding: 20px 22px;
+}
+
+.pink-button {
+    background-color: #fe7ebb;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-family: 'poppinsmedium';
+    font-size: 14px;
+    padding: 20px 22px;
+}
+
+.pink-button:hover {
+    cursor: pointer;
+}
+
+.main-form {
+    padding: 60px 0;
+    width: 40%;
+}
+
+.main-form__title {
+    line-height: 50px;
+}
+
+.form__input {
+    margin-bottom: 20px;
+    width: 100%;
+} 
+
+.form__select {
+    height: 50px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.form__area {
+    margin-bottom: 20px;
+    width: 100%;
+}

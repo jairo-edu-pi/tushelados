@@ -1,0 +1,36 @@
+.font-purple {
+    color: #933fc3;
+}
+
+.font-pink {
+    color: #f67ab5;
+}
+
+.font-gray--dark {
+    color: #42495b;
+}
+
+.font-gray--regular {
+    color: #7a839e;
+}
+
+.font-gray--light {
+    color: #d2d4d8;
+}
+.font-gray--light {
+    color: #d2d4d8;
+}
+
+.font-white {
+    color: #fff;
+}
+
+.background-gray-light {
+    background-color: #f9f9f9;
+}
+
+.background-ice-cream {
+    background-image: url('../images/background_footer_03.jpg');
+    background-repeat: no-repeat;
+    background-position: 0 90px;
+}

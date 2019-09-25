@@ -1,0 +1,43 @@
+.big-title {
+    color: #42495b;
+    font-family: 'poppinssemibold';
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+
+.medium-title {
+    color: #42495b;
+    font-family: 'poppinssemibold';
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+.litle_title {
+    color: #ff7fbe;
+    font-family: 'lobster_1.3regular';
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.copy-banner {
+    font-family: 'poppinslight';
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 22px;
+}
+
+.small-paragraph {
+    color: #7a839e;
+    font-family: 'poppinslight';
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 1px;
+}
+
+.pink-cta {
+    background-color: #ff7fbe;
+    color: white;
+    font-family: 'poppinsmedium';
+    border-radius: 5px;
+    padding: 20px;
+}

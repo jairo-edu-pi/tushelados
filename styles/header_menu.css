@@ -1,0 +1,86 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    width: 100%;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+}
+
+.header__logo__text {
+    font-family: 'lobster_1.3regular';
+    font-size: 24px;
+    padding-left: 10px;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+}
+
+.header__nav__list {
+    display: flex;
+}
+
+.header__nav__item {
+    margin-left: 25px;
+    position: relative;
+}
+
+.header__nav__item:hover .header__nav__sub-list {
+    display: block;
+}
+
+.header__nav__link {
+    font-family: 'poppinsmedium';
+    font-size: 16px;
+}
+
+.header__nav__link:hover {
+    text-decoration: underline;
+}
+
+.header__nav__link--cta {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px 10px;
+}
+
+.header__nav__link--cta:hover {
+    text-decoration: none;
+}
+
+.header__nav__sub-list {
+    background-color: white;
+    border-radius: 5px;
+    display: none;
+    left: -50px;
+    padding: 20px 10px;
+    position: absolute;
+    text-align: center;
+    width: 150px;
+    z-index: 2;
+}
+
+.header__nav__sub-list{
+    font-family: 'poppinsmedium';
+    color:  #f67ab5;
+    font-size: 14px; 
+    width: 140px;
+}
+
+.header__nav__sub-list a{
+   display: block;
+   background: #ffffff;
+   padding: 0.5em; 
+}
+
+.header__nav__sub-list li a:hover{
+    color: #ffffff;
+    background: #FF3CB9;
+    transition: all .0.2s;
+   
+}

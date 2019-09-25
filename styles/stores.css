@@ -1,0 +1,36 @@
+.store-list {
+    padding: 60px 0;
+}
+
+.store-list__store {
+    background-color: white;
+    box-shadow: 0px 0px 7px #dbdcdd;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 20px;
+    vertical-align: top;
+    width: 27%;
+    margin: 0 10px;
+}
+
+.store-list__store__image {
+    width: 100%;
+    height: auto;
+}
+
+.store-list__store__name {
+    font-family: 'lobster_1.3regular';
+    text-align: center;
+    font-size: 18px;
+    color: #933fc3;
+    margin: 20px 0; 
+}
+
+.store-list__store__address {
+    font-family: 'poppinslight';
+    text-align: center;
+}
+
+.store-list__store {
+    
+}

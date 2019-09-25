@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./styles/face_fonts.css">
+        <link rel="stylesheet" href="./styles/colors.css">
+        <link rel="stylesheet" href="./styles/texts.css">
+        <link rel="stylesheet" href="./styles/general.css">
+        <link rel="stylesheet" href="./styles/forms.css">
+        <link rel="stylesheet" href="./styles/header_menu.css">
+        <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+
+        <meta charset="UTF-8">
+    </head>
+    <body class="main-body">
+        <!-- Start Header / Menu -->
+        <div class="module-wrapper">
+            <header class="header">
+                <a href="index.html" class="header__logo">
+                    <img class="header__logo__image" src="./images/logo_header.jpg" alt="cono">
+                    <h2 class="header__logo__text font-purple">tushelados.com</h2>
+                </a>
+                
+                <nav class="header__nav">
+                    <ul class="header__nav__list">
+                        <li class="header__nav__item"><a href="index.html" class="header__nav__link font-white">Inicio</a></li>
+                        <li class="header__nav__item"><a href="" class="header__nav__link font-white">Nosotros</a>
+                            <ul class="header__nav__sub-list">
+                                <li class="header__nav__sub-item"><a class="header__nav__sub-link font-pink" href="equipo.html">Nuestro Equipo</a></li>
+                                <li class="header__nav__sub-item"><a class="header__nav__sub-link font-pink" href="tiendas.html">Tiendas</a></li>
+                            </ul>
+                        </li>
+                        <li class="header__nav__item"><a href="contacto.html" class="header__nav__link font-white">Contacto</a></li>
+                        <li class="header__nav__item"><a href="productos.html" class="header__nav__link header__nav__link--cta font-pink">Comprar ahora</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+        <!-- End Header / Menu -->
+
+        <!-- Start main form -->
+        <div class="module-wrapper">
+            <section class="main-form">
+                <h2 class="main-form__title big-title">Comunicate con nosotros</h2>
+                <p class="main-form__text copy-banner">
+                    Escribenos y pronto nos pondremos en contacto contigo.
+                </p>
+                <form class="form"action="">
+                    <input class="form__input gray-input" placeholder="Nombre" type="text" name="" id="">
+                    <input class="form__input gray-input" placeholder="Correo Electrónico" type="text" name="" id="">
+                    <select class="form__select gray-input" name="" id="">
+                        <option value="">Asunto</option>
+                        <option value="pedidos">Pedidos</option>
+                        <option value="dudas">Dudas</option>
+                        <option value="empresariales">Eventos empresariales</option>
+                    </select>
+                    <textarea class="form__area gray-input" placeholder="Mensaje" name="" id="" cols="30" rows="10"></textarea>
+                    <button class="form__button pink-button">Enviar</button>
+                </form>
+            </section>
+        </div>
+        <!-- End main form -->
+
+        <!-- Start maps -->
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.1644858046648!2d-74.03127827174616!3d4.741462479175552!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNMKwNDQnMjkuMyJOIDc0wrAwMSc0Ni4wIlc!5e0!3m2!1sen!2sco!4v1569352255599!5m2!1sen!2sco" 
+            width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        <!-- End maps -->
+
+        <!-- Start Newsletter -->
+        <div class="module-wrapper">
+            <div class="newsletter">
+                <h3 class="newsletter__title litle_title">Boletín</h3>
+                <h2 class="newsletter__title medium-title">¿Quieres estar informado sobre nuestra marca?</h2>
+                <form class="newsletter__form" action="">
+                    <input class="newsletter__form__input gray-input" type="text" placeholder="Digita tu email">
+                    <button class="newsletter__form__button pink-button">Enviar</button>
+                </form>
+            </div>
+        </div>
+        <!-- End Newsletter -->
+
+        <!-- Start footer -->
+        <div class="full_module-wrapper background-ice-cream">
+            <div class="module-wrapper">
+                <footer class="footer">
+                    <div class="footer__brand">
+                        <div class="footer__logo">
+                            <img class="footer__logo__image" src="./images/logo_footer.jpg" alt="">
+                            <h2 class="footer__logo__name font-purple">tushelados.com</h2>
+                        </div>
+                        <ul class="footer__follow-list">
+                            <li></li>
+                        </ul>
+                    </div>
+                    <div class="footer__menu">
+                        <nav class="footer__nav">
+                            <h3 class="footer__menu__title font-gray--dark">Enlances</h3>
+                            <ul class="footer__menu__list">
+                                <li class="footer__menu__item">
+                                    <a class="footer__menu__link" href="index.html">Inicio</a>
+                                </li>
+                                <li class="footer__menu__item">
+                                    <a class="footer__menu__link" href="equipo.html">Nosotros</a>
+                                </li>
+                                <li class="footer__menu__item">
+                                    <a class="footer__menu__link" href="contacto.html">Contacto</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="footer__contact">
+                            <h3 class="footer__menu__title font-gray--dark">Contácto</h3>
+                            <ul class="footer__menu__list">
+                                <li class="footer__menu__item">(571) 320 266 19 23</li>
+                                <li class="footer__menu__item">info@nuestroshelados.com</li>
+                                <li class="footer__menu__item">
+                                    <p>Algún lugar en una dirección</p>
+                                    <p>Bogotá - Colombia</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+        <!-- End footer -->
+    </body>
+
+    
+</html>
